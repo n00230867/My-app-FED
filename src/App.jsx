@@ -5,6 +5,9 @@ import Clicky from "./components/Clicky"
 const App = () => {
     return (
         <>
+
+            <Clicky />
+
             <h1>Hello app</h1>
             <ModuleTitle title = "Front End Dev" />
             <ModuleTitle title = "AI" />
@@ -14,8 +17,6 @@ const App = () => {
             <GreetingTitle title = "Mark" />
             <GreetingTitle title = "Sam" />
 
-
-            <Clicky/>
         </>
     );
 };
