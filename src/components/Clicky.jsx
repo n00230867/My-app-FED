@@ -5,7 +5,7 @@ const Clicky = () => {
 
     return (
         <>
-            <h1>You have clicked the button x times.</h1>
+            <h1>You have clicked the button { count } times.</h1>
             <button onClick={() => setCount(count + 1)}>Click me</button>
         </>
     );
